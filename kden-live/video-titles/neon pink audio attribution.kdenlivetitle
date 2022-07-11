@@ -1,0 +1,29 @@
+<kdenlivetitle duration="30" LC_NUMERIC="C" width="1920" height="1080" out="30">
+ <item type="QGraphicsTextItem" z-index="3">
+  <position x="1080" y="880">
+   <transform>1,0,0,0,1,0,0,0,1</transform>
+  </position>
+  <content line-spacing="0" shadow="1;#64aa55ff;0;6;6" font-underline="0" box-height="63" font="Noto Sans" letter-spacing="0" font-pixel-size="45" font-italic="0" typewriter="0;2;1;0;0" alignment="2" font-weight="63" box-width="794.047" font-color="255,255,255,255">Now Playing: &lt;Song Title> - &lt;Artist></content>
+ </item>
+ <item type="QGraphicsSvgItem" z-index="1">
+  <position x="900" y="840">
+   <transform zoom="250">2.5,0,0,0,2.5,0,0,0,1</transform>
+  </position>
+  <content url="/home/nessa/Documents/squiggles-creative-commons-assets/squiggles-creative-commons-assets/vector/icons/music_note_bisexual.svg"/>
+ </item>
+ <item type="QGraphicsEllipseItem" z-index="0">
+  <position x="860" y="800">
+   <transform zoom="100">1,0,0,0,1,0,0,0,1</transform>
+  </position>
+  <content brushcolor="255,255,255,255" pencolor="0,0,0,255" penwidth="4" rect="0,0,200,200"/>
+ </item>
+ <item type="QGraphicsRectItem" z-index="-1">
+  <position x="1000" y="860">
+   <transform zoom="100">1,0,0,0,1,0,0,0,1</transform>
+  </position>
+  <content brushcolor="0,0,0,255" pencolor="166,64,200,255" penwidth="8" rect="0,0,900,100"/>
+ </item>
+ <startviewport rect="-1603.7,-1.27278,1920,1080"/>
+ <endviewport rect="0,0,1920,1080"/>
+ <background color="0,0,0,0"/>
+</kdenlivetitle>
