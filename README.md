@@ -9,6 +9,9 @@ I do a lot of different creative projects and oftentimes I prefer to make my own
 
 I would not consider myself a professional in any regards, but I am always trying to learn something new. As I learn and grow I may be able to make higher quality assets. Feedback on what you like is greatly appeciated!
 
+# Assets Support (Or Rather a Lack-Thereof)
+
+Generally, I will not be providing technical support for the assets in this repository. For most purposes support should not be required as I will try to include common file types that most software can use. This is not to say that I expect difficulties with using these assets, more as a disclaimer that I will not personally be of assistance if an asset is not to your liking.
 
 # Donate To Support My Endeavors <3
 
