@@ -1,0 +1,27 @@
+navbar_entries:
+  - title: about
+    url: about
+
+footer_entries:
+  - title: QueenOfSquiggles's games
+    url: https://queenofsquiggles.itch.io/
+
+  - title: twitter
+    url: https://twitter.com/OfSquiggles
+
+  - title: github
+    url: https://github.com/QueenOfSquiggles
+
+  - title: feed
+    url: feed.xml
+
+misc_entries:
+  - title: Featured
+    url: false
+    entries:
+      - title: Bi-Lighting Music Note
+        url: /2022/07/12/asset-bisexual-music-note.html
+
+  - title: All Assets
+    url: false
+    post_list: true

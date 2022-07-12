@@ -2,10 +2,12 @@
 layout: post
 title:  "Bi-Lighting Music Note"
 date:   2022-07-12
-categories: ["asset", "icon", "svg", "png"]
+tags: asset icon svg png
 ---
 
-Click on the image to download it?
+Click on the image to download it.
+
+First asset added ever!
 
 # SVG Version
 
