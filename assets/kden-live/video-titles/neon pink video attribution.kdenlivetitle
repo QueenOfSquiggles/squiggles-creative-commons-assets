@@ -1,16 +1,16 @@
 <kdenlivetitle duration="30" LC_NUMERIC="C" width="1920" height="1080" out="30">
  <item type="QGraphicsTextItem" z-index="0">
-  <position x="870" y="132">
+  <position x="260" y="140">
    <transform>1,0,0,0,1,0,0,0,1</transform>
   </position>
-  <content line-spacing="0" shadow="1;#64aa55ff;0;6;6" font-underline="0" box-height="190" font="Noto Sans" letter-spacing="0" font-pixel-size="70" font-italic="0" typewriter="0;2;1;0;0" alignment="1" font-weight="63" box-width="786.063" font-color="255,255,255,255">Video Credit: &lt;Source>
+  <content line-spacing="0" shadow="1;#64aa55ff;0;6;6" font-underline="0" box-height="190" font="Noto Sans" letter-spacing="0" font-pixel-size="70" font-italic="0" typewriter="0;2;1;0;0" alignment="1" font-weight="63" box-width="780.063" font-color="255,255,255,255">Video Credit: &lt;Source>
  - &lt;Video Title></content>
  </item>
  <item type="QGraphicsRectItem" z-index="-1">
   <position x="225" y="112">
    <transform zoom="100">1,0,0,0,1,0,0,0,1</transform>
   </position>
-  <content brushcolor="0,0,0,255" pencolor="166,64,200,255" penwidth="8" rect="0,0,1470,235"/>
+  <content brushcolor="0,0,0,255" pencolor="166,64,200,255" penwidth="8" rect="0,0,835,235"/>
  </item>
  <startviewport rect="0,376.505,1920,1080"/>
  <endviewport rect="0,0,1920,1080"/>

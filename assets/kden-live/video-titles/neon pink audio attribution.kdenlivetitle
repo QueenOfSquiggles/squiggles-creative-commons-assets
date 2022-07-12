@@ -5,12 +5,6 @@
   </position>
   <content line-spacing="0" shadow="1;#64aa55ff;0;6;6" font-underline="0" box-height="63" font="Noto Sans" letter-spacing="0" font-pixel-size="45" font-italic="0" typewriter="0;2;1;0;0" alignment="2" font-weight="63" box-width="794.047" font-color="255,255,255,255">Now Playing: &lt;Song Title> - &lt;Artist></content>
  </item>
- <item type="QGraphicsSvgItem" z-index="1">
-  <position x="900" y="840">
-   <transform zoom="250">2.5,0,0,0,2.5,0,0,0,1</transform>
-  </position>
-  <content url="/home/nessa/Documents/squiggles-creative-commons-assets/squiggles-creative-commons-assets/vector/icons/music_note_bisexual.svg"/>
- </item>
  <item type="QGraphicsEllipseItem" z-index="0">
   <position x="860" y="800">
    <transform zoom="100">1,0,0,0,1,0,0,0,1</transform>
