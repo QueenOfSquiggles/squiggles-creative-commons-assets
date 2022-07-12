@@ -12,6 +12,9 @@ footer_entries:
   - title: github
     url: https://github.com/QueenOfSquiggles
 
+  - title: This asset repository
+    url: https://github.com/QueenOfSquiggles/squiggles-creative-commons-assets
+
   - title: feed
     url: feed.xml
 
