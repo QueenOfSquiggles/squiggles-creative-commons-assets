@@ -3,6 +3,8 @@ source "https://rubygems.org"
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
+
+
 #     bundle exec jekyll serve
 #
 # This will help ensure the proper Jekyll version is running.
@@ -12,9 +14,13 @@ source "https://rubygems.org"
 gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll", "~> 3.9.2"
   gem "github-pages", "~> 226" 
-  gem "webrick"
+  gem "jekyll-feed", "~> 0.15.0"
+  gem "jekyll-seo-tag", "~> 2.8.0"
+  gem "rouge", "~> 3.26.0"
+  gem "webrick", "~> 1.7"
+
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
