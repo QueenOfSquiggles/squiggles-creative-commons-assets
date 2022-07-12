@@ -1,7 +1,12 @@
 # Queen Of Squiggles' Creative Commons Assets
 ![CC0 Badge Icon](./repo-meta-assets/cc0-badge.png)
 
+
 [Website Front-End](https://queenofsquiggles.github.io/squiggles-creative-commons-assets/)
+
+Website Status: [![pages-build-deployment](https://github.com/QueenOfSquiggles/squiggles-creative-commons-assets/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/QueenOfSquiggles/squiggles-creative-commons-assets/actions/workflows/pages/pages-build-deployment)
+
+
 
 I do a lot of different creative projects and oftentimes I prefer to make my own assets. This repository serves two purposes:
     * Provide access to free, CC0 assets for anyone who wants to use any/all of them
