@@ -11,11 +11,11 @@ First asset added ever!
 
 # SVG Version
 
-<a href="/assets/vector/icons/music_note_bisexual.svg" download>
-    <img alt="svg image" src="/assets/vector/icons/music_note_bisexual.svg" width="60%"/>
+<a href="/squiggles-creative-commons-assets/assets/vector/icons/music_note_bisexual.svg" download>
+    <img alt="svg image" src="/squiggles-creative-commons-assets/assets/vector/icons/music_note_bisexual.svg" width="60%"/>
 </a>
 
 # PNG Version
-<a href="/assets/vector/icons/music_note_bisexual.png" download>
-    <img alt="png image" src="/assets/vector/icons/music_note_bisexual.png" width="60%"/>
+<a href="/squiggles-creative-commons-assets/assets/vector/icons/music_note_bisexual.png" download>
+    <img alt="png image" src="/squiggles-creative-commons-assets/assets/vector/icons/music_note_bisexual.png" width="60%"/>
 </a>
