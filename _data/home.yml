@@ -22,16 +22,6 @@ footer_entries:
   - title: feed
     url: feed.xml
 
-misc_entries:
-  - title: Featured
-    url: false
-    entries:
-      - title: Bi-Lighting Music Note
-        url: /squiggles-creative-commons-assets/2022/07/12/asset-bisexual-music-note.html
-  - title: All Assets
-    url: false
-    post_list: true
-
 featured_assets:
 # later I'll fill this out to pull from the data files somehow
   - temp: ""
