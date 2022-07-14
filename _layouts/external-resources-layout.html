@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<a href="{{ relative_url }}../">{{ site.theme_config.back_home_text }}</a>
+
+{{ content }}
+
+<!--Create Jump Links List-->
+<ul>
+    {% for ref in site.data.resource_categories %}
+    {% assign entry = ref[1] %}
+    <li>
+        <a href="#{{ entry.link }}"> {{ entry.name }} </a>
+    </li>
+    {% endfor %}
+</ul>
+
+{% for ref in site.data.resource_categories %}
+{% assign entry = ref[1] %}
+<!--Create Heading and Description-->
+<h2 id="{{entry.link}}">{{ entry.name }}</h2>
+<p>
+    {{entry.description}}
+</p>
+
+
+<!--Create Table-->
+{% include external_resource_table.html collection=entry.entries %}
+
+{% endfor %}

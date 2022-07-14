@@ -1,0 +1,48 @@
+name: Another Example
+description: >-
+  This is a very small set of example layouts to provide an example of how the data is structured and presented in the case that there are no currently listed references otherwise
+link: another-example # this should be the #link version of the name header
+
+# this is a list of all entries under this category
+entries:
+  - name: Test Site
+    description: This is a long description for an entry! woohoo? Super fun to just write out random words until it's long enough for testing purposes
+    url: https://twitter.com/home
+    icon: /squiggles-creative-commons-assets/repo-meta-assets/more_resources/icons/queen-of-squiggles.jpg
+  - name: Test Site
+    description: This is a long description for an entry! woohoo? Super fun to just write out random words until it's long enough for testing purposes
+    url: https://twitter.com/home
+    icon: /squiggles-creative-commons-assets/repo-meta-assets/more_resources/icons/queen-of-squiggles.jpg
+  - name: Test Site
+    description: This is a long description for an entry! woohoo? Super fun to just write out random words until it's long enough for testing purposes
+    url: https://twitter.com/home
+    icon: /squiggles-creative-commons-assets/repo-meta-assets/more_resources/icons/queen-of-squiggles.jpg
+  - name: Test Site
+    description: This is a long description for an entry! woohoo? Super fun to just write out random words until it's long enough for testing purposes
+    url: https://twitter.com/home
+    icon: /squiggles-creative-commons-assets/repo-meta-assets/more_resources/icons/queen-of-squiggles.jpg
+  - name: Test Site
+    description: This is a long description for an entry! woohoo? Super fun to just write out random words until it's long enough for testing purposes
+    url: https://twitter.com/home
+    icon: /squiggles-creative-commons-assets/repo-meta-assets/more_resources/icons/queen-of-squiggles.jpg
+  - name: Test Site
+    description: This is a long description for an entry! woohoo? Super fun to just write out random words until it's long enough for testing purposes
+    url: https://twitter.com/home
+    icon: /squiggles-creative-commons-assets/repo-meta-assets/more_resources/icons/queen-of-squiggles.jpg
+  - name: Test Site
+    description: This is a long description for an entry! woohoo? Super fun to just write out random words until it's long enough for testing purposes
+    url: https://twitter.com/home
+    icon: /squiggles-creative-commons-assets/repo-meta-assets/more_resources/icons/queen-of-squiggles.jpg
+  - name: Test Site
+    description: This is a long description for an entry! woohoo? Super fun to just write out random words until it's long enough for testing purposes
+    url: https://twitter.com/home
+    icon: /squiggles-creative-commons-assets/repo-meta-assets/more_resources/icons/queen-of-squiggles.jpg
+  - name: Test Site
+    description: This is a long description for an entry! woohoo? Super fun to just write out random words until it's long enough for testing purposes
+    url: https://twitter.com/home
+    icon: /squiggles-creative-commons-assets/repo-meta-assets/more_resources/icons/queen-of-squiggles.jpg
+  - name: Test Site
+    description: This is a long description for an entry! woohoo? Super fun to just write out random words until it's long enough for testing purposes
+    url: https://twitter.com/home
+    icon: /squiggles-creative-commons-assets/repo-meta-assets/more_resources/icons/queen-of-squiggles.jpg
+
