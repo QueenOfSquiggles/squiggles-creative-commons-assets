@@ -1,0 +1,27 @@
+<table style="width: 100%; padding-left: 2%; padding-right: 2%;">
+    <colgroup>
+        <col style="min-width: 15%; max-width: 25%;">
+        <col style="min-width: 15%; max-width: 25%;">
+        <col style="min-width: 15%; max-width: 25%;">
+    </colgroup>
+    <tr>
+        <th>Icon</th>
+        <th>Link</th>
+        <th>Description</th>
+    </tr>
+    {% for item in include.collection %}
+    <tr>
+        <td>
+            <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+                <img src="{{ item.icon }}" style="min-width: 15%; max-width: 25%;" />
+            </a>
+        </td>
+        <td>
+            <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer"> {{ item.name }} </a>
+        </td>
+        <td>
+            {{ item.description }}
+        </td>
+    </tr>
+    {% endfor %}
+</table>

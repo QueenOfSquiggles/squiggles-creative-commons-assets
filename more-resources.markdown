@@ -1,6 +1,6 @@
 ---
-layout: page
-title: About
+layout: external-resources-layout
+title: More Resources
 permalink: /more-resources/
 ---
 
@@ -26,12 +26,3 @@ There are a few rules that entries must fulfill to be on this list:
     - This should not be a problem if the assets are already listed as CC0, but if they are reposted without modification and the original artist has the art available, the original artist deserves the traffic and opportunity to get support.
 
 # External CC0 Resources
-
-*This is an example template for anyone who wants to submit a PR with additions*
-<a href="/squiggles-creative-commons-assets" download>
-    Squiggles Creative Commons Assets
-    <img alt="Squiggles Creative Common Assets" src="/squiggles-creative-commons-assets/repo-meta-assets/more_resources/icons/queen-of-squiggles.jpg" width="30%"/>
-</a>
-
-## Asset Packs
-
