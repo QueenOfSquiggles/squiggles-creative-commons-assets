@@ -1,0 +1,28 @@
+{
+    "name": "Images",
+    "description": "PNG, SVG, ETC...",
+    "related_links": [
+        {
+            "name": "Example Link",
+            "link": "#index"
+        }
+    ],
+    "internal_id": "images",
+    "entries": [
+        {
+            "title": "Bi-Lighting Music Note",
+            "preview": "vector/icons/music_note_bisexual.svg",
+            "description": "A music note with a drop shadow and a gradient from purple to magenta, also known as 'bi-lighting' due to it matching the colours of the bisexual flag. Fun fact: this was the very first asset uploaded",
+            "download_options": [
+                {
+                    "name": "SVG Version",
+                    "file": "vector/icons/music_note_bisexual.svg"
+                },
+                {
+                    "name": "PNG Version",
+                    "file": "vector/icons/music_note_bisexual.png"
+                }
+            ]
+        }
+    ]
+}

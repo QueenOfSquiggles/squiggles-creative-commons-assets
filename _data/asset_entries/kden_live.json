@@ -1,0 +1,37 @@
+{
+    "name": "KdenLive Assets",
+    "description": "Assets used in the nonlinear video editor, KdenLive.",
+    "related_links": [
+        {
+            "name": "KdenLive Website",
+            "link": "https://kdenlive.org/"
+        }
+    ],
+    "internal_id": "kden-live",
+    "entries": [
+        {
+            "title": "Video Attribution Title Card",
+            "preview": "asset_previews/neon pink video attribution.png",
+            "preview_size": "50%",
+            "description": "A title card that animated from the top of the screen. Serves as a template for attributing video footage in a video",
+            "download_options": [
+                {
+                    "name": "Download",
+                    "file": "kden-live/video-titles/neon pink video attribution.kdenlivetitle"
+                }
+            ]
+        },
+        {
+            "title": "Audio/Music Attribution Title Card",
+            "preview": "asset_previews/neon pink audio attribution.png",
+            "preview_size": "50%",
+            "description": "A title card that animated from the right side of the screen. Serves as a template for attributing video footage in a video. Add an icon to the bubble to customize the style!",
+            "download_options": [
+                {
+                    "name": "Download",
+                    "file": "kden-live/video-titles/neon pink audio attribution.kdenlivetitle"
+                }
+            ]
+        }
+    ]
+}

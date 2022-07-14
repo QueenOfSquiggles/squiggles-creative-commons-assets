@@ -6,15 +6,19 @@ layout: default
 
 {{ content }}
 
+<h1 id="index">Index</h1>
+
 <!--Create Jump Links List-->
-<ul>
+<dl>
     {% for ref in site.data.resource_categories %}
     {% assign entry = ref[1] %}
-    <li>
+    <dt>
         <a href="#{{ entry.link }}"> {{ entry.name }} </a>
-    </li>
+
+    </dt>
+    <dd> {{entry.description}} </dd>
     {% endfor %}
-</ul>
+</dl>
 
 {% for ref in site.data.resource_categories %}
 {% assign entry = ref[1] %}
@@ -28,4 +32,5 @@ layout: default
 <!--Create Table-->
 {% include external_resource_table.html collection=entry.entries %}
 
+<a href="#index">Return to Index</a>
 {% endfor %}

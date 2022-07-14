@@ -1,0 +1,23 @@
+<dl>
+    {% for item in include.collection %}
+    <dt>
+        <h3>
+            {{item.title}}
+        </h3>
+    </dt>
+    <dd>
+        <i> {{item.description}} </i>
+        <br>
+        <img alt="{{item.title}} preview image" src="/squiggles-creative-commons-assets/assets/{{item.preview}}"
+            width="{{item.preview_size | 25%}}" />
+        <br>
+        |
+        {% for dl in item.download_options %}
+        <a href="/squiggles-creative-commons-assets/assets/{{dl.file}}" download>
+            {{dl.name}}
+        </a> |
+
+        {% endfor %}
+    </dd>
+    {% endfor %}
+</dl>

@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<a href="{{ relative_url }}../">{{ site.theme_config.back_home_text }}</a>
+
+{{ content }}
+
+<h1 id="index">Index</h1>
+
+<!--Create Jump Links List-->
+<dl>
+    {% for ref in site.data.asset_entries %}
+    {% assign entry = ref[1] %}
+    <dt>
+        <a href="#{{ entry.internal_id }}"> {{ entry.name }} </a>
+
+    </dt>
+    <dd>
+        {{entry.description}}
+        <br>
+        {% for link_ref in entry.related_links %}
+        <div align="right">
+            <a href="{{ link_ref.link }}" target="_blank" rel="noopener noreferrer"> {{ link_ref.name }} </a>
+        </div>
+        {% endfor %}
+    </dd>
+    {% endfor %}
+</dl>
+
+{% for ref in site.data.asset_entries %}
+{% assign entry = ref[1] %}
+<!--Create Heading and Description-->
+<br>
+<hr>
+<br>
+
+<div align="center">
+    <h2 id="{{entry.internal_id}}">{{ entry.name }}</h2>
+    <p>
+        <strong>
+            {{entry.description}}
+        </strong>
+    </p>
+
+    {% for link_ref in entry.related_links %}
+    | <a href="{{ link_ref.link }}" target="_blank" rel="noopener noreferrer"> {{ link_ref.name }} </a> |
+    {% endfor %}
+</div>
+
+<!--Create Table-->
+{% include asset_catalogue_table_incl.html collection=entry.entries %}
+<div align="right">
+    <a href="#index">Return to Index</a>
+</div>
+{% endfor %}
