@@ -1,5 +1,7 @@
 # Queen Of Squiggles' Creative Commons Assets
-![CC0 Badge Icon](./repo-meta-assets/cc0-badge.png)
+<a href="https://creativecommons.org/publicdomain/zero/1.0/">
+    ![CC0 Badge Icon](./repo-meta-assets/cc0-badge.png)
+</a>
 
 
 [Website Front-End](https://queenofsquiggles.github.io/squiggles-creative-commons-assets/)

@@ -1,6 +1,8 @@
 navbar_entries:
   - title: about
     url: about
+  - title: "more resources"
+    url: more-resources
 
 footer_entries:
   - title: QueenOfSquiggles's games
