@@ -2,7 +2,10 @@
 layout: default
 ---
 
-<a href="{{ relative_url }}../">{{ site.theme_config.back_home_text }}</a>
+{% if site.theme_config.show_navbar == true %}
+{% include horizontal_list.html collection=site.data.home.navbar_entries %}
+<div class="dashed"></div>
+{% endif %}
 
 {{ content }}
 
@@ -54,3 +57,10 @@ layout: default
     <a href="#index">Return to Index</a>
 </div>
 {% endfor %}
+
+{% if site.theme_config.show_footer == true %}
+<footer>
+    <div class="dashed"></div>
+    {% include horizontal_list.html collection=site.data.home.footer_entries %}
+</footer>
+{% endif %}

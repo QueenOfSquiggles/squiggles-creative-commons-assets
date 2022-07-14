@@ -1,3 +1,4 @@
+<!--
 <table style="width: 100%; padding-left: 2%; padding-right: 2%;">
     <colgroup>
         <col style="min-width: 15%; max-width: 25%;">
@@ -9,20 +10,38 @@
         <th>Link</th>
         <th>Description</th>
     </tr>
-    {% for item in include.collection %}
-    <tr>
-        <td>
-            <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
-                <img src="/squiggles-creative-commons-assets/repo-meta-assets/more_resources/icons/{{ item.icon }}"
-                    style="min-width: 15%; max-width: 25%;" />
-            </a>
-        </td>
-        <td>
-            <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer"> {{ item.name }} </a>
-        </td>
-        <td>
-            {{ item.description }}
-        </td>
-    </tr>
-    {% endfor %}
-</table>
+-->
+{% for item in include.collection %}
+<div align="center">
+    <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+        <h2>{{ item.name }} </h2>
+        <br>
+        <img src="/squiggles-creative-commons-assets/repo-meta-assets/more_resources/icons/{{ item.icon }}"
+            style="width: 15vw;" />
+    </a>
+    <br>
+    <i>{{ item.description }}</i>
+
+    <!--    Try to show an excerpt from the site, checking against existing data     -->
+    {% if item.site_excerpt %}
+    <div align="left">
+        <br>
+        From the site:
+        <br>
+    </div>
+    <blockquote>
+        {{item.site_excerpt}}
+    </blockquote>
+    {% endif %}
+
+    <!--    Try to show a donate link to the creator if available, ideally this should be present for all creators   -->
+    {% if item.donate_link %}
+    <div align="right">
+        <a href="{{ item.donate_link }}" target="_blank" rel="noopener noreferrer">
+            <h3>DONATE LINK</h3>
+        </a>
+    </div>
+    {% endif %}
+
+</div>
+{% endfor %}
