@@ -4,6 +4,9 @@ title: More Resources
 permalink: /more-resources/
 ---
 
+# WARNING
+**This page is in heavy development. I only pushed it to the live version of the website to make sure the data-driven segments still worked on GitHub versus my own local machine <3**
+
 # Introduction
 
 *If you are familiar with this page, you can [jump to the content](#external-cc0-resources)*
