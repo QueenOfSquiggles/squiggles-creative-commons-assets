@@ -23,6 +23,17 @@
                     "file": "vector/icons/music_note_bisexual.png"
                 }
             ]
+        },
+        {
+            "title": "Behaviour Tree Icons",
+            "preview": "asset_previews/behaviour-tree-icons.jpg",
+            "description": "A small collection of SVG icons that I personally use for behaviour tree nodes. Some may be useful outside of the context of behaviour trees as well.",
+            "download_options": [
+                {
+                    "name": "Zipped Archive (SVG files)",
+                    "file": "vector/icons/behaviour-tree-icons/behaviour-tree-icons.zip"
+                }
+            ]
         }
     ]
 }
