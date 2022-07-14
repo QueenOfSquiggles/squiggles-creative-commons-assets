@@ -11,7 +11,7 @@ permalink: /more-resources/
 
 *If you are familiar with this page, you can [jump to the content](#index)*
 
-> This page is incomplete, [you can help by expanding it <3](#rules-of-entries)
+> This page is incomplete, [you can help by expanding it <3](https://github.com/QueenOfSquiggles/squiggles-creative-commons-assets/issues)
 
 I will do my best to add more resources and categories as time goes on. If you would like to contribute an entry, or if an entry needs changing, feel free to submit a pull request on [the GitHub repository for this archive](https://github.com/QueenOfSquiggles/squiggles-creative-commons-assets)
 
