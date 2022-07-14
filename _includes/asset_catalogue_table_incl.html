@@ -9,7 +9,7 @@
         <i> {{item.description}} </i>
         <br>
         <img alt="{{item.title}} preview image" src="/squiggles-creative-commons-assets/assets/{{item.preview}}"
-            width="{{item.preview_size | 25%}}" />
+            style="min-width: 25vw; max-height: 50vw; max-width: auto; min-height: auto;" />
         <br>
         |
         {% for dl in item.download_options %}
