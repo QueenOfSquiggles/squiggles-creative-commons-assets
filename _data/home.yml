@@ -1,6 +1,8 @@
 navbar_entries:
   - title: about
     url: about
+  - title: "asset catalogue"
+    url: assets
   - title: "more resources"
     url: more-resources
 
@@ -29,3 +31,7 @@ misc_entries:
   - title: All Assets
     url: false
     post_list: true
+
+featured_assets:
+# later I'll fill this out to pull from the data files somehow
+  - temp: ""

@@ -9,11 +9,11 @@ permalink: /more-resources/
 
 # Introduction
 
-*If you are familiar with this page, you can [jump to the content](#external-cc0-resources)*
+*If you are familiar with this page, you can [jump to the content](#index)*
 
 > This page is incomplete, [you can help by expanding it <3](#rules-of-entries)
 
-I will do my best to add more resources and categories as time goes on. If you would like to contribute an entry, or if an entry needs changing, feel free to submit a pull request on [the GitHub repository for this archive](#)
+I will do my best to add more resources and categories as time goes on. If you would like to contribute an entry, or if an entry needs changing, feel free to submit a pull request on [the GitHub repository for this archive](https://github.com/QueenOfSquiggles/squiggles-creative-commons-assets)
 
 ## Rules Of Entries
 There are a few rules that entries must fulfill to be on this list:
@@ -28,4 +28,3 @@ There are a few rules that entries must fulfill to be on this list:
 4. Original Content is preferred, but stolen is not allowed.
     - This should not be a problem if the assets are already listed as CC0, but if they are reposted without modification and the original artist has the art available, the original artist deserves the traffic and opportunity to get support.
 
-# External CC0 Resources

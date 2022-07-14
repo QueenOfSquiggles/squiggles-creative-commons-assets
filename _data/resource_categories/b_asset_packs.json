@@ -1,0 +1,13 @@
+{
+    "name": "Asset Packs",
+    "link": "asset-packs",
+    "description": "Resources that include assets in bundles of similar-themed assets",
+    "entries": [
+        {
+            "name": "Test Site",
+            "url": "https://twitter.com/home",
+            "icon": "queen-of-squiggles.jpg",
+            "description": "This is a long description for an entry! woohoo? Super fun to just write out random words until it's long enough for testing purposes"
+        }
+    ]
+}
