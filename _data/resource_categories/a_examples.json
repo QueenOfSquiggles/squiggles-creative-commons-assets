@@ -1,13 +1,14 @@
 {
     "name": "Examples",
     "link": "example",
-    "description": "This is an example for how the data is formatted. Not as useful to you if you're looking to download assets, but if you're hoping to contribute a resource link, reviewing the data layout is very helpful <3",
+    "description": "Examples here...lorem ipsum dolor sit amet amiright?",
     "entries": [
         {
-            "name": "Test Site",
-            "description": "This is a long description for an entry! woohoo? Super fun to just write out random words until it's long enough for testing purposes",
-            "url": "https://twitter.com/home",
-            "icon": "queen-of-squiggles.jpg"
+            "name": "Squiggles Creative Commons Assets",
+            "description": "This is the website you are currently looking at. This segment is primarily here to serve as an example for how the data is structured for anyone who wants to submit a pull request adding new links.",
+            "url": "https://queenofsquiggles.github.io/squiggles-creative-commons-assets/",
+            "icon": "queen-of-squiggles.jpg",
+            "donate_link": "https://ko-fi.com/queenofsquiggles"
         }
     ]
 }

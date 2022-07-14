@@ -1,12 +1,19 @@
 navbar_entries:
+  - title: home
+    url: /squiggles-creative-commons-assets/index
   - title: about
-    url: about
+    url: /squiggles-creative-commons-assets/about
   - title: "asset catalogue"
-    url: assets
+    url: /squiggles-creative-commons-assets/assets
   - title: "more resources"
-    url: more-resources
+    url: /squiggles-creative-commons-assets/more-resources
+  - title: "Bottom"
+    url: '#bottom'
 
 footer_entries:
+  - title: Top
+    url: '#top'
+
   - title: QueenOfSquiggles's games
     url: https://queenofsquiggles.itch.io/
 

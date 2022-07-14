@@ -4,10 +4,12 @@
     "description": "Resources that include assets in bundles of similar-themed assets",
     "entries": [
         {
-            "name": "Test Site",
-            "url": "https://twitter.com/home",
-            "icon": "queen-of-squiggles.jpg",
-            "description": "This is a long description for an entry! woohoo? Super fun to just write out random words until it's long enough for testing purposes"
+            "name": "Kenney.nl",
+            "url": "https://kenney.nl/assets",
+            "icon": "kenney_alien.jpg",
+            "description": "Kenney is an awesome creator making high quality CC0 assets as well as working on other projects as well.",
+            "site_excerpt": "We've created thousands of sprites, 3D models and sound effects which you can use in your projects. The generous public domain license allows any kind of use, even commercial!",
+            "donate_link": "https://kenney.itch.io/kenney-donation"
         }
     ]
 }

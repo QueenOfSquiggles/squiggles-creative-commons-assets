@@ -2,9 +2,13 @@
 layout: default
 ---
 
-<a href="{{ relative_url }}../">{{ site.theme_config.back_home_text }}</a>
-
+{% if site.theme_config.show_navbar == true %}
+{% include horizontal_list.html collection=site.data.home.navbar_entries %}
+<div class="dashed"></div>
+{% endif %}
 {{ content }}
+
+<hr>
 
 <h1 id="index">Index</h1>
 
@@ -23,6 +27,7 @@ layout: default
 {% for ref in site.data.resource_categories %}
 {% assign entry = ref[1] %}
 <!--Create Heading and Description-->
+<hr>
 <h2 id="{{entry.link}}">{{ entry.name }}</h2>
 <p>
     {{entry.description}}
@@ -34,3 +39,10 @@ layout: default
 
 <a href="#index">Return to Index</a>
 {% endfor %}
+
+{% if site.theme_config.show_footer == true %}
+<footer>
+    <div class="dashed"></div>
+    {% include horizontal_list.html collection=site.data.home.footer_entries %}
+</footer>
+{% endif %}
