@@ -7,27 +7,30 @@ navbar_entries:
     url: /squiggles-creative-commons-assets/assets
   - title: "more resources"
     url: /squiggles-creative-commons-assets/more-resources
-  - title: "Bottom"
-    url: '#bottom'
+  - title: "Support Me <3"
+    url: https://ko-fi.com/queenofsquiggles
+    new_tab: true
 
 footer_entries:
-  - title: Top
-    url: '#top'
-
   - title: QueenOfSquiggles's games
     url: https://queenofsquiggles.itch.io/
+    new_tab: true
 
   - title: twitter
     url: https://twitter.com/OfSquiggles
+    new_tab: true
 
   - title: github
     url: https://github.com/QueenOfSquiggles
+    new_tab: true
 
   - title: This asset repository
     url: https://github.com/QueenOfSquiggles/squiggles-creative-commons-assets
+    new_tab: true
 
   - title: feed
     url: feed.xml
+    new_tab: true
 
 featured_assets:
 # later I'll fill this out to pull from the data files somehow
