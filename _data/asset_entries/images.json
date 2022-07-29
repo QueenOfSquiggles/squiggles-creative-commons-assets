@@ -25,6 +25,21 @@
             ]
         },
         {
+            "title": "C# Logo - Purple",
+            "preview": "vector/icons/c_sharp_logo_purple.svg",
+            "description": "A logo for C# that I made initially for the Godot Mono FPS Tutorial Series.",
+            "download_options": [
+                {
+                    "name": "SVG Version",
+                    "file": "vector/icons/c_sharp_logo_purple.svg"
+                },
+                {
+                    "name": "PNG Version",
+                    "file": "vector/icons/c_sharp_logo_purple.png"
+                }
+            ]
+        },
+        {
             "title": "Behaviour Tree Icons",
             "preview": "asset_previews/behaviour-tree-icons.jpg",
             "description": "A small collection of SVG icons that I personally use for behaviour tree nodes. Some may be useful outside of the context of behaviour trees as well.",
